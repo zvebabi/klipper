@@ -3,10 +3,11 @@ This document provides contact information for Klipper.
 1. [I have a question about Klipper](#i-have-a-question-about-klipper)
 2. [I have a feature request](#i-have-a-feature-request)
 3. [Help! It doesn't work!](#help-it-doesnt-work)
-4. [I found a bug in Klipper](#i-found-a-bug-in-klipper)
-5. [I am making changes that I'd like to include in Klipper](#i-am-making-changes-that-id-like-to-include-in-klipper)
-6. [Klipper IRC channel](#irc)
-7. [Klipper mailing list](#mailing-list)
+4. [I would like to share the findings of work that I have done](#i-would-like-to-share-the-findings-of-work-that-i-have-done)
+5. [I found a bug in Klipper](#i-found-a-bug-in-klipper)
+6. [I am making changes that I'd like to include in Klipper](#i-am-making-changes-that-id-like-to-include-in-klipper)
+7. [Klipper IRC channel](#irc)
+8. [Klipper mailing list](#mailing-list)
 
 I have a question about Klipper
 ===============================
@@ -22,10 +23,10 @@ experiencing general printing problems, then you will likely get a
 better response by asking in a general 3d-printing forum or a forum
 dedicated to your printer hardware.
 
-If you have read the Klipper documentation and are interested in
-sharing your knowledge and experience with other Klipper users then
-you can join the [Klipper IRC channel](#irc). It is a community where
-Klipper users can discuss Klipper with other users.
+If you are interested in sharing your knowledge and experience with
+other Klipper users then you can join the
+[Klipper IRC channel](#irc). It is a community where Klipper users can
+discuss Klipper with other users.
 
 Do not open a Klipper github issue to ask a question.
 
@@ -63,12 +64,30 @@ problems are not related to the Klipper software. You may get a better
 response by searching in a general 3d-printing forum or in a forum
 dedicated to your printer hardware.
 
-If after reading the Klipper documentation you are interested in
-sharing your knowledge and experience with other Klipper users then
-you can join the [Klipper IRC channel](#irc). It is a community where
-Klipper users can discuss Klipper with other users.
+If you are interested in sharing your knowledge and experience with
+other Klipper users then you can join the
+[Klipper IRC channel](#irc). It is a community where Klipper users can
+discuss Klipper with other users.
 
 Do not open a Klipper github issue to request help.
+
+I would like to share the findings of work that I have done
+===========================================================
+
+We use Github as a location for collaborators that are working on
+improving Klipper to share the results of their work. If you have done
+some interesting research then you can share the results of your work
+using the Github issue tracker.
+
+Note, that the Klipper Github is not a place to ask a question and it
+is not a place to make requests.
+
+The Klipper Github issue tracker is at:
+[https://github.com/KevinOConnor/klipper/issues](https://github.com/KevinOConnor/klipper/issues)
+
+Another option is to share your results using the
+[Klipper IRC channel](#irc). It is a community where Klipper users can
+discuss Klipper with other users.
 
 I found a bug in Klipper
 ========================
@@ -78,14 +97,19 @@ provide bug reports.
 
 There is important information that will be needed in order to fix a
 bug. Please follow these steps:
-1. If you are unsure the problem is with the Klipper software then you
-   can ask first on the [Klipper IRC channel](#irc). Do not open a
-   github issue if unsure.
+1. Be sure the bug is in the Klipper software. If you are thinking
+   "there is a problem, I can't figure out why, and therefore it is a
+   Klipper bug", then **do not** open a github issue. In that case,
+   someone interested and able will need to first research and
+   diagnose the root cause of the problem. If you would like to share
+   the results of your research and check if other users are
+   experiencing similar issues then you can join the
+   [Klipper IRC channel](#irc) and inquire there.
 2. Make sure you are running unmodified code from
    [https://github.com/KevinOConnor/klipper](https://github.com/KevinOConnor/klipper).
-   If the code has been modified in any way or is obtained from any
-   other source, then you will need to reproduce the problem on the
-   pristine unmodified code from
+   If the code has been modified or is obtained from another source,
+   then you will need to reproduce the problem on the unmodified code
+   from
    [https://github.com/KevinOConnor/klipper](https://github.com/KevinOConnor/klipper)
    prior to reporting an issue.
 3. If possible, run an `M112` command in the OctoPrint terminal window
@@ -114,7 +138,7 @@ bug. Please follow these steps:
       necessary information.
    5. If the log file is very large (eg, greater than 2MB) then one
       may need to compress the log with zip or gzip.
-5. Open a github issue ticket at
+5. Open a new github issue at
    [https://github.com/KevinOConnor/klipper/issues](https://github.com/KevinOConnor/klipper/issues)
    and provide a clear description of the problem. The Klipper
    developers need to understand what steps were taken, what the
