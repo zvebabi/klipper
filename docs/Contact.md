@@ -11,51 +11,64 @@ This document provides contact information for Klipper.
 I have a question about Klipper
 ===============================
 
+Unfortunately, we receive many more questions than we could possibly
+answer. We did our best to provide answers to common questions in the
+[Klipper documentation](Overview.md). Please take the time to read the
+documentation and follow the directions provided there.
+
 Many questions we receive are general 3d-printing questions that are
 not specific to Klipper. If you have a general question or are
 experiencing general printing problems, then you will likely get a
-better response by joining a general 3d-printing forum and asking
-there.
+better response by asking in a general 3d-printing forum or a forum
+dedicated to your printer hardware.
 
-If you have a question specific to Klipper then you can join the
-[Klipper IRC channel](#irc) and ask there.
+If you have read the Klipper documentation and are interested in
+sharing your knowledge and experience with other Klipper users then
+you can join the [Klipper IRC channel](#irc). It is a community where
+Klipper users can discuss Klipper with other users.
 
-Do not open a github issue to ask a question.
+Do not open a Klipper github issue to ask a question.
 
 I have a feature request
 ========================
 
 All new features require someone interested and able to implement that
-feature. You can ask if someone is working on a feature (or is
-interested in working on it) in the [Klipper IRC channel](#irc).
+feature. If you are interested in helping to implement or test a new
+feature, you can inquire about ongoing developments in the
+[Klipper IRC channel](#irc).
 
 Unfortunately, if no one is currently working on a feature, then it is
 unlikely to be implemented in the near future. We only track features
 that are under active development.
 
-Do not open a github issue to request a feature.
+Do not open a Klipper github issue to request a feature.
 
 Help! It doesn't work!
 ======================
 
-The majority of problem reports we see are eventually tracked down to:
+Unfortunately, we receive many more requests for help than we could
+possibly answer. Most problem reports we see are eventually tracked
+down to:
 1. Subtle errors in the hardware, or
 2. Not following all the steps described in the Klipper documentation.
 
-If you are experiencing problems we recommend carefully reading the
+If you are experiencing problems we recommend you carefully read the
 [Klipper documentation](Overview.md) and double check that all steps
 were followed.
 
-If the problem seems mechanical in nature, then we recommend carefully
-inspecting the printer hardware (all joints, wires, screws, etc.) and
-verifying nothing is abnormal. For mechanical issues you will likely
-get a better response by joining a general 3d-printing forum and
-asking about it there.
+If you are experiencing a printing problem, then we recommend
+carefully inspecting the printer hardware (all joints, wires, screws,
+etc.) and verifying nothing is abnormal. We find most printing
+problems are not related to the Klipper software. You may get a better
+response by searching in a general 3d-printing forum or in a forum
+dedicated to your printer hardware.
 
-If you think the issue may be related to Klipper then you can join the
-[Klipper IRC channel](#irc) and ask there.
+If after reading the Klipper documentation you are interested in
+sharing your knowledge and experience with other Klipper users then
+you can join the [Klipper IRC channel](#irc). It is a community where
+Klipper users can discuss Klipper with other users.
 
-Do not open a github issue to request help.
+Do not open a Klipper github issue to request help.
 
 I found a bug in Klipper
 ========================
@@ -65,9 +78,9 @@ provide bug reports.
 
 There is important information that will be needed in order to fix a
 bug. Please follow these steps:
-1. If you are unsure the problem is with Klipper then you can ask
-   first on the [Klipper IRC channel](#irc). Do not open a github
-   issue if unsure.
+1. If you are unsure the problem is with the Klipper software then you
+   can ask first on the [Klipper IRC channel](#irc). Do not open a
+   github issue if unsure.
 2. Make sure you are running unmodified code from
    [https://github.com/KevinOConnor/klipper](https://github.com/KevinOConnor/klipper).
    If the code has been modified in any way or is obtained from any
@@ -104,9 +117,9 @@ bug. Please follow these steps:
 5. Open a github issue ticket at
    [https://github.com/KevinOConnor/klipper/issues](https://github.com/KevinOConnor/klipper/issues)
    and provide a clear description of the problem. The Klipper
-   developers need to understand what steps were taken, what action
-   was desired, and what action actually occurred. The Klipper log
-   file **must be attached** to that ticket:
+   developers need to understand what steps were taken, what the
+   desired outcome was, and what outcome actually occurred. The
+   Klipper log file **must be attached** to that ticket:
 
    ![attach-issue](img/attach-issue.png)
 
@@ -122,9 +135,10 @@ for important information.
 There are several
 [documents for developers](Overview.md#developer-documentation). If
 you have questions on the code then you can also ask on the
-[Klipper IRC channel](#irc). If you would like to provide and update
-on your current progress then you can open a Github Pull Request with
-your current code along with a description of your findings.
+[Klipper IRC channel](#irc). If you would like to provide an update on
+your current progress then you can open a Github issue with the
+location of your code, an overview of the changes, and a description
+of its current status.
 
 IRC
 ===
