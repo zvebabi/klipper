@@ -59,10 +59,10 @@ were followed.
 
 If you are experiencing a printing problem, then we recommend
 carefully inspecting the printer hardware (all joints, wires, screws,
-etc.) and verifying nothing is abnormal. We find most printing
-problems are not related to the Klipper software. You may get a better
-response by searching in a general 3d-printing forum or in a forum
-dedicated to your printer hardware.
+etc.) and verify nothing is abnormal. We find most printing problems
+are not related to the Klipper software. You may get a better response
+by searching in a general 3d-printing forum or in a forum dedicated to
+your printer hardware.
 
 If you are interested in sharing your knowledge and experience with
 other Klipper users then you can join the
