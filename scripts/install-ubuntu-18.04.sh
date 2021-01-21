@@ -10,16 +10,16 @@ KLIPPER_GROUP=$KLIPPER_USER
 install_packages()
 {
     # Packages for python cffi
-    PKGLIST="python-virtualenv virtualenv python-dev libffi-dev build-essential"
+    PKGLIST="virtualenv python-dev libffi-dev build-essential"
     # kconfig requirements
     PKGLIST="${PKGLIST} libncurses-dev"
     # hub-ctrl
-    PKGLIST="${PKGLIST} libusb-dev"
+#    PKGLIST="${PKGLIST} libusb-dev"
     # AVR chip installation and building
-    PKGLIST="${PKGLIST} avrdude gcc-avr binutils-avr avr-libc"
+#    PKGLIST="${PKGLIST} avrdude gcc-avr binutils-avr avr-libc"
     # ARM chip installation and building
-    PKGLIST="${PKGLIST} stm32flash libnewlib-arm-none-eabi"
-    PKGLIST="${PKGLIST} gcc-arm-none-eabi binutils-arm-none-eabi libusb-1.0"
+#    PKGLIST="${PKGLIST} stm32flash libnewlib-arm-none-eabi"
+#    PKGLIST="${PKGLIST} gcc-arm-none-eabi binutils-arm-none-eabi libusb-1.0"
 
     # Update system package info
     report_status "Running apt-get update..."
@@ -61,7 +61,7 @@ WantedBy=multi-user.target
 Type=simple
 User=$KLIPPER_USER
 RemainAfterExit=yes
-ExecStart=${PYTHONDIR}/bin/python ${SRCDIR}/klippy/klippy.py ${HOME}/printer.cfg -l ${KLIPPER_LOG}
+ExecStart=${PYTHONDIR}/bin/python2 ${SRCDIR}/klippy/klippy.py ${SRCDIR}/sapphire.cfg -l ${KLIPPER_LOG} -a /tmp/klippy_uds
 EOF
 # Use systemctl to enable the klipper systemd service script
     sudo systemctl enable klipper.service
